@@ -1,7 +1,3 @@
 body {
-    background: hsl(240, 42%, 64%);
-};
-
-title {
-    color: #b0b004
+    background: hwb(195 47% 0% / 0.719);
 };
