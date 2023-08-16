@@ -1,5 +1,5 @@
-const h2 = document.createElement("h2");
-
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
+const input = document.getElementById('button');
+input.addEventListener('click', function() {
+    alert('I really appreciate you coming and visiting this page and taking the time to learn a little about me.');
+    alert('Hope you have an amazing day!');
+});
