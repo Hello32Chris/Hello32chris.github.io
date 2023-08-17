@@ -25,24 +25,18 @@ body {
   
   .button {
     text-align: center;
-    margin-left: 230px;
+    margin-left: 550px;
     background-color: rgb(198, 177, 216);
+    font-size: 16px;
+  }
+
+  .button:hover {
+    text-align: center;
+    margin-left: 550px;
+    background-color: rgb(174, 151, 195);
     font-size: 16px;
     cursor: grab;
   }
-/*
-  .button {
-        border: none;
-        color: white;
-        padding: 16px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-  }*/
 
   h1, h2 {
     font-family: 'Gabriela', serif;
