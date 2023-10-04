@@ -4,7 +4,7 @@ body {
   }
   
   body {
-    background-image: url('./images/myPhotos/miamibkgrnd.jpg');
+    background-image: url('./images/miamibkgrnd.jpg');
     background-size: cover;
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
@@ -20,21 +20,21 @@ body {
   
   #content {
     padding: 20px;
-    background-image: url('./images/myPhotos/cloudz.jpg');
+    background-image: url('./images/cloudz.jpg');
   }
   
   .button {
     text-align: center;
-    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     background-color: rgb(198, 177, 216);
     font-size: 16px;
   }
 
   .button:hover {
-    text-align: center;
-    margin-left: 550px;
     background-color: rgb(174, 151, 195);
-    font-size: 16px;
+    font-size: 15.75px;
     cursor: grab;
   }
 
@@ -72,12 +72,26 @@ body {
     margin-top: .5em;
     padding: 10px;    
   }
+
+  #footer {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+
+  #links {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
   
   img {
     max-width: 100%;
     width: 95%;
     height: auto;
     padding: 20px;
+    border-radius: 50px;
+    
   }
   
   p {
