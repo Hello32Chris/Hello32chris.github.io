@@ -91,11 +91,11 @@ body {
   }
   
   img {
-    max-width: 100%;
-    width: 95%;
+    max-width: 200px;
+    width: auto;
     height: auto;
     margin: 10px;
-    border-radius: 50px;   
+    border-radius: 30px;   
   }
   
   p {
