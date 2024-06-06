@@ -19,7 +19,12 @@ body {
   }
   
   #content {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 40px;
     background-image: url('./images/cloudz.jpg');
   }
   
@@ -89,9 +94,8 @@ body {
     max-width: 100%;
     width: 95%;
     height: auto;
-    padding: 20px;
-    border-radius: 50px;
-    
+    margin: 10px;
+    border-radius: 50px;   
   }
   
   p {
